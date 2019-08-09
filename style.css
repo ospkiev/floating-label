@@ -1,13 +1,13 @@
 input:focus ~ .floating-label,
 input:not(:focus):valid ~ .floating-label{
-  top: 1px;
+  top: 2px;
   left: 6px;
   font-size: 10px;
   margin-bottom: 3px;
 }
 
 .inputText {
-  font-size: 1rem;
+  font-size: 1.5rem;
   width: 200px;
   height: 35px;
   padding-left: 4px;
