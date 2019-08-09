@@ -1,8 +1,8 @@
 input:focus ~ .floating-label,
 input:not(:focus):valid ~ .floating-label{
-  top: 2px;
-  left: 6px;
-  font-size: 10px;
+  top: 0.05rem;
+  left: 0.5rem;
+  font-size: 0.7rem;
   margin-bottom: 3px;
 }
 
@@ -10,16 +10,16 @@ input:not(:focus):valid ~ .floating-label{
   font-size: 1.5rem;
   width: 200px;
   height: 35px;
-  padding-left: 4px;
+  padding-left: 0.2rem;
 }
 
 .floating-label{
   position: absolute;
   pointer-events: none;
-  left: 10px;
-  top: 7px;
-  transition: 0.3s ease all;
-  font-size: 24px;
+  top: 0.4rem;
+  left: 0.5rem;
+  transition: 0.2s ease all;
+  font-size: 1.5rem;
   opacity: 0.5;
 }
 
