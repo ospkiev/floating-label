@@ -1,0 +1,28 @@
+input:focus ~ .floating-label,
+input:not(:focus):valid ~ .floating-label{
+  top: 1px;
+  left: 6px;
+  font-size: 10px;
+  margin-bottom: 3px;
+}
+
+.inputText {
+  font-size: 1rem;
+  width: 200px;
+  height: 35px;
+  padding-left: 4px;
+}
+
+.floating-label{
+  position: absolute;
+  pointer-events: none;
+  left: 10px;
+  top: 7px;
+  transition: 0.3s ease all;
+  font-size: 24px;
+  opacity: 0.5;
+}
+
+.form-wrapper{
+  position: relative;
+}

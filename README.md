@@ -1,2 +1,0 @@
-# floating-label
-floating-label
